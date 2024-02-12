@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+.contact-form input {
+  border-bottom: 1px solid rgb(222, 226, 230) !important;
+}
+.contact-header h1 {
+  color: #2c3e50 !important;
+}
+.contact-form input:focus {
+  outline: none;
+}
+input[type="submit"]{
+    background-color:rgb(26, 188, 156);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+}

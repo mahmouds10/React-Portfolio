@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --underlineColor: #FFF;
+}
+.underLine{
+    color:var(--underlineColor);
+    text-align: center;
+}
+.star-container{
+    position: relative;
+}
+.star-container::after{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color:var(--underlineColor);
+    position: absolute;
+    top: 50%;
+    left: 200%;
+}
+.star-container::before{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color:var(--underlineColor);
+    position: absolute;
+    top: 50%;
+    right: 200%;
+}
+.dark{
+    --underlineColor:#2c3e50;
+}

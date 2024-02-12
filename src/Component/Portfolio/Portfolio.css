@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.portfolio-Content h1{
+    color: #2c3e50;
+}
+.portfolio-layer{
+    background-color:rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: all 0.4s;
+}
+.portfolio-layer i{
+    font-size: 100px;
+    font-weight: 900;
+}
+.portfolio-layer:hover{
+    opacity: 1;
+    cursor: pointer;
+}
