@@ -16,28 +16,28 @@ export default function Footer() {
               <h2>AROUND THE WEB</h2>
               <ul className="list-unstyled d-flex col-12 justify-content-center gap-2 h5 my-3">
               <div className="link-container">
-              <a href="https://www.facebook.com/profile.php?id=100071474855041">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100071474855041">
                   <li>
                     <i className="fa-brands fa-facebook"></i>
                   </li>
                 </a>
               </div>
               <div className="link-container">
-              <a href="https://github.com/mahmouds10">
+              <a target="_blank" href="https://github.com/mahmouds10">
                   <li>
                     <i className="fa-brands fa-github"></i>
                   </li>
                 </a>
               </div>
               <div className="link-container">
-              <a href="https://www.linkedin.com/in/mahmoud-sayed-15a66a2a8/">
+              <a target="_blank" href="https://www.linkedin.com/in/mahmoud-sayed-15a66a2a8/">
                   <li>
                     <i className="fa-brands fa-linkedin-in"></i>
                   </li>
                 </a>
               </div>
               <div className="link-container">
-              <a href="tel:01101804085">
+              <a target="_blank" href="tel:01101804085">
                   <li>
                     <i className="fa-brands fa-whatsapp"></i>
                   </li>
